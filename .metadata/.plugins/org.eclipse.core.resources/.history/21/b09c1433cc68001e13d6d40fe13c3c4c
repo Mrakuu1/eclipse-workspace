@@ -1,0 +1,16 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class BackendEngineer extends SoftwareEngineer {
+
+	public void attendMeeting() {
+		System.out.println("Software Engineer attended meeting");
+	}
+	
+	public void doBackendProject() {
+		System.out.println("Backend engineer working on backend project");
+	}
+	
+}
+
+
+//com.kn.ploymorphism.softwareengineer.SoftwareEngineer

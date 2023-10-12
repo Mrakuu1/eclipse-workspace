@@ -1,0 +1,17 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class DatabaseEngineer extends SoftwareEngineer {
+
+	public void attendMeeting() {
+		System.out.println("Database Engineer attended meeting");
+	}
+	
+	public void doDatabaseProject() {
+		System.out.println("Database engineer working on database project");
+	}
+	
+	public void learnSQL() {
+		System.out.println("Database Engineer learning SQL");
+	}
+	
+}

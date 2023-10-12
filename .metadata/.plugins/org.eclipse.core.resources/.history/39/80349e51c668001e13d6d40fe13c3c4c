@@ -1,0 +1,20 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class SoftwareEngineer {
+	
+	public void attendMeeting() {
+		System.out.println("Software Engineer attended meeting");
+	}
+	
+	public void doTesting() {
+		System.out.println("Software engineer performing testing");
+	}
+	
+	
+	
+	public void doActivity(SoftwareEngineer se) {
+		
+		se.attendMeeting();
+		se.doTesting();
+	}
+}

@@ -1,0 +1,14 @@
+package in.akash;
+
+
+public class TestEmp {
+public void test() {
+	try {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Driver loaded");
+	}catch(Exception e) {
+		e.printStackTrace();
+	}
+}
+	
+}

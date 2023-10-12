@@ -1,0 +1,14 @@
+package com.kn.pakc2;
+
+import com.kn.pack1.Demo1;
+
+public class Demo4 extends Demo1 {
+	
+	public void display4() {
+		System.out.println("Demo 2 A = "+ a);
+		System.out.println("Demo 2 B = "+ b);
+//		System.out.println("Demo 2 C = "+ c);--->Default / package
+//		System.out.println("Demo 2 D = "+ d); ----> private
+	}
+	
+}

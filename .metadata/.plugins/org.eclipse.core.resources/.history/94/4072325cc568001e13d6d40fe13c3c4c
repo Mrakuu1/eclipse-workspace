@@ -1,0 +1,10 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class SoftwareEngineerDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

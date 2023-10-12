@@ -1,0 +1,31 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class SoftwareEngineer {
+	
+	public void attendMeeting() {
+		System.out.println("Software Engineer attended meeting");
+	}
+	
+	public void doTesting() {
+		System.out.println("Software engineer performing testing");
+	}
+	
+	
+	
+	BackendEngineer be = new BackendEngineer();
+	DatabaseEngineer de = new DatabaseEngineer();
+	JavaBackendEngineer jbe = new JavaBackendEngineer();
+	PythonBackendEngineer pbe = new PythonBackendEngineer();
+	
+	public void doActivity(SoftwareEngineer se) {
+		
+		if(se instanceof BackendEngineer) {
+			se.attendMeeting();
+			se.doTesting();
+		}else if(se instanceof DatabaseEngineer) {
+			se.attendMeeting();
+			se.doDatabaseProject();
+		}
+		
+	}
+}

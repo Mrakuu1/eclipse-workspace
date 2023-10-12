@@ -1,0 +1,23 @@
+package com.kn.polymorphism.shape2;
+
+public class ShapeDemo {
+
+	public static void main(String[] args) {
+		Geometry g = new Geometry();
+		Circle c= new Circle();
+		Rectangle r = new Rectangle(); 
+		Square s = new Square();
+		
+		g.doActivity(r);
+		g.doActivity(s);
+		g.doActivity(c);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

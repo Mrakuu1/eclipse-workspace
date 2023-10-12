@@ -1,0 +1,16 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class SoftwareEngineerDemo {
+
+	public static void main(String[] args) {
+			
+		SoftwareEngineer se = new SoftwareEngineer();
+		
+		se = new BackendEngineer();
+		
+		se.doActivity(se);
+		
+		
+	}
+
+}

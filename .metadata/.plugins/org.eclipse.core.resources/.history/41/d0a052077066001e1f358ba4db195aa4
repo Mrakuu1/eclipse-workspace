@@ -1,0 +1,14 @@
+package com.kn.polymorphism;
+
+public class PaymentDemo {
+
+	public static void main(String[] args) {
+			Payment p;
+			
+			p = new UPI();
+			p.bill();
+			p.offer();
+			p.pay();
+	}
+
+}

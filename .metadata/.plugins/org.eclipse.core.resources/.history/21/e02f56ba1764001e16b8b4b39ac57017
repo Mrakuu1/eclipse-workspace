@@ -1,0 +1,14 @@
+package com.kn.pack2;
+
+import com.kn.pack1.Demo1;
+
+public class Demo5  {
+	public void display5() {
+		Demo1 d1 = new Demo1();
+		System.out.println("Demo 2 A = "+ d1.a);
+//		System.out.println("Demo 2 B = "+ d1.b); ---->protected
+//		System.out.println("Demo 2 C = "+ d1.c); ----> default / package
+//		System.out.println("Demo 2 D = "+ d1.d); ----> private
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.kn.polymorphism.shape2;
+
+public class Square {
+	double side = 4;
+		
+	public double calculateArea() {
+		return side*side;
+	}
+}

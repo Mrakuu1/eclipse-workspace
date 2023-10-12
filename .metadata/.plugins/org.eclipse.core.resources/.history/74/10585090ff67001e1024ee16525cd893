@@ -1,0 +1,5 @@
+package com.kn.polymorphism.shape2;
+
+public class Square {
+
+}

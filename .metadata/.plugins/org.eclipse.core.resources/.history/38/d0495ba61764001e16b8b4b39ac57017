@@ -1,0 +1,7 @@
+package com.kn.pakc2;
+
+import com.kn.pack1.Demo1;
+
+public class Demo4 extends Demo1 {
+
+}

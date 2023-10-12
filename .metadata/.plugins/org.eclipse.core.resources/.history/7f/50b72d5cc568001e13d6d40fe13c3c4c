@@ -1,0 +1,5 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class DatabaseEngineer extends SoftwareEngineer {
+
+}

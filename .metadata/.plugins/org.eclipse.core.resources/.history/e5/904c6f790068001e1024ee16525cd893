@@ -1,0 +1,23 @@
+package com.kn.polymorphism.shape2;
+
+public class ShapeDemo {
+
+	public static void main(String[] args) {
+		Shape sh;
+		
+		sh = new Circle();
+		sh.draw();
+		System.out.println("Area of circle = "+sh.calculateArea());
+		
+		sh = new Rectangle();
+		sh.draw();
+		System.out.println("Area of Rectangle = "+sh.calculateArea());
+		
+		sh = new Square();
+		sh.draw();
+		System.out.println("Area of Square = "+sh.calculateArea());
+		
+		
+	}
+
+}

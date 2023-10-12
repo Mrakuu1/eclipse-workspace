@@ -1,0 +1,15 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class JavaBackendEngineer extends BackendEngineer {
+
+	
+	public void doBackendProject() {
+		System.out.println("Java Backend engineer working on JAVA backend project");
+	}
+	
+	public void learnJava() {
+		System.out.println("Java Backend Engineer learning JAVA");
+	}
+}
+
+

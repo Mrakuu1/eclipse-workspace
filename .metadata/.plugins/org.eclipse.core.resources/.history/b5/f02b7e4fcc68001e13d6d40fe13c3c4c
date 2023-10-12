@@ -1,0 +1,34 @@
+package com.kn.ploymorphism.softwareengineer;
+
+public class SoftwareEngineerDemo {
+
+	public static void main(String[] args) {
+
+		SoftwareEngineer se = new SoftwareEngineer();
+
+		BackendEngineer be = new BackendEngineer();
+		DatabaseEngineer de = new DatabaseEngineer();
+		JavaBackendEngineer jbe = new JavaBackendEngineer();
+		PythonBackendEngineer pbe = new PythonBackendEngineer();
+
+	}
+
+	public static void doActivity(SoftwareEngineer se) {
+		se.attendMeeting();
+		se.doTesting();
+
+		if (se instanceof BackendEngineer) {
+			((BackendEngineer) (se)).doBackendProject();
+		} else if (se instanceof DatabaseEngineer) {
+			((DatabaseEngineer) (se)).doDatabaseProject();
+			((DatabaseEngineer) (se)).learnSQL();
+		} else if (se instanceof JavaBackendEngineer) {
+			((JavaBackendEngineer) (se)).doBackendProject();
+			((JavaBackendEngineer) (se)).learnJava();
+		} else if (se instanceof PythonBackendEngineer) {
+			((PythonBackendEngineer) (se)).doBackendProject();
+			((PythonBackendEngineer) (se)).learnPython();
+		}
+	}
+
+}

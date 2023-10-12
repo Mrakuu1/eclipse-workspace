@@ -1,0 +1,5 @@
+package com.kn.polymorphism.shapes;
+
+public class Rectangle extends Shapes {
+
+}
